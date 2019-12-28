@@ -1,0 +1,155 @@
+body {
+    background-image: url(img_food/%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D1%81_%D1%81%D0%B2_%D0%B1%D0%B5%D0%B6.jpg);
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+
+.container div {
+    width: 20%;
+    min-width: 100px;
+    height: 18%;
+    border: 1px solid silver;
+    border-radius: 20px;
+    float: left;
+    margin: 2%;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif, Arial;
+    background-size: 60%;
+
+}
+
+.container .food:active {
+    transform: translate(2%);
+    color: #009C0D;
+    box-shadow: 2px 2px 4px inset rgba(0, 69, 6, .4);
+}
+
+.container p {
+    margin-top: 85%;
+}
+
+.apple {
+    background: url(img_food/apple.png) no-repeat center;
+
+}
+
+.milk {
+    background: url(img_food/milk.png) no-repeat center;
+}
+
+.honey {
+    background: url(img_food/honey.png) no-repeat center;
+}
+
+.fish {
+    background: url(img_food/fish.png) no-repeat center;
+}
+
+.tea {
+    background: url(img_food/tea.png) no-repeat center;
+}
+
+.orange {
+    background: url(img_food/orange.png) no-repeat center;
+}
+
+.rice {
+    background: url(img_food/rice.png) no-repeat center;
+}
+
+.tomato {
+    background: url(img_food/tomato.png) no-repeat center;
+}
+
+.lemon {
+    background: url(img_food/lemon.png) no-repeat center;
+}
+
+.grape {
+    background: url(img_food/grape.png) no-repeat center;
+}
+
+.watermelon {
+    background: url(img_food/watermelon.png)no-repeat center;
+}
+
+.water {
+    background: url(img_food/water.png) no-repeat center;
+}
+
+.food:hover {
+    background-color: rgba(72, 217, 96, .2);
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 4px rgba(0, 69, 6, .4);
+    transition-duration: .1s
+}
+
+.container a {
+    display: block;
+    width: 100%;
+}
+
+body .information {
+    margin: 2%;
+    width: 93%;
+    min-width: 180px;
+    height: 10%;
+    border: 1px solid silver;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Philosopher', sans-serif, Arial;
+    color: firebrick;
+
+}
+
+.information p {
+    margin: 0 auto;
+    padding: 0 1% 2% 1%;
+    font-size: 120%;
+
+}
+
+.information:hover {
+    border: 1px solid green;
+    transform: scale(1.1);
+    transition-duration: .5s;
+}
+
+h1 {
+    font-family: 'Philosopher', sans-serif, Arial;
+    font-size: 34px;
+    text-align: center;
+    color: firebrick;
+}
+
+body .up {
+    background: url(img_food/up.png) no-repeat center;
+    background-size: 45%;
+    width: 8%;
+    height: 8%;
+    margin: 43% 0 0 -11%;
+    border: none;
+    border-radius: 50%;
+    position: fixed;
+    opacity: .5;
+}
+
+.up:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition-duration: .1s;
+
+}
+
+.up:active {
+    transform: translate(2%);
+    /*эффект нажатой кнопки*/
+}
